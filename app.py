@@ -36,4 +36,4 @@ horas_previstas = modelo.predict(nota_normalizada)[0][0]
 
 
 # Exibindo o resultado corrigido
-st.success(f"Para tirar **{nota_desejada}** pontos, a IA estima que você precisará estudar cerca de **{max(0, horas_previstas):.1f} horas semanais**.") semanais**.")
+st.success (horas_previstas)
